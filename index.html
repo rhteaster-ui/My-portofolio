@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R_hmt ofc – Portofolio</title>
+  <!-- Google Fonts for a modern, professional look -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Link to our stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar">
+    <a href="#tentang">Tentang Saya</a>
+    <a href="#pengalaman">Pengalaman</a>
+    <a href="#teknologi">Teknologi</a>
+    <a href="#gaya">Gaya Kerja</a>
+    <a href="#minat">Minat &amp; Arah</a>
+  </nav>
+
+  <!-- Hero section -->
+  <header class="hero">
+    <!-- Canvas for animated particles behind the profile image -->
+    <canvas id="heroCanvas"></canvas>
+    <div class="hero-img"></div>
+    <h1 class="reveal">R_hmt ofc</h1>
+    <div class="typing reveal" id="typing"></div>
+    <p class="tagline reveal">Pengembang web mandiri fokus pada efisiensi &amp; fungsionalitas</p>
+    <div class="buttons reveal">
+      <a href="#pengalaman" class="button">Lihat Pengalaman</a>
+      <a href="#teknologi" class="button alt">Cek Keahlian</a>
+    </div>
+  </header>
+
+  <!-- Tentang Saya -->
+  <section id="tentang">
+    <h2 class="section-title reveal">Tentang Saya</h2>
+    <p class="reveal">Saya adalah seorang <strong>pengembang web mandiri (self‑taught)</strong> yang berfokus pada pembuatan web app, PWA, dan website statis interaktif dengan pendekatan efisien, ringan, dan fungsional, terutama untuk perangkat dengan spesifikasi rendah.</p>
+    <p class="reveal">Saya memulai perjalanan di dunia teknologi secara otodidak, tanpa mentor langsung dan dengan keterbatasan perangkat. Dalam proses tersebut, saya mengembangkan kemampuan untuk <strong>mendesain, membangun, mengoptimalkan, dan mendeploy</strong> aplikasi web menggunakan bantuan AI sebagai productivity tool, bukan sekadar generator kode.</p>
+    <p class="reveal">Fokus utama saya bukan hanya “membuat website terlihat keren”, tetapi memastikan web benar‑benar berguna, mudah dipahami, dan stabil digunakan oleh pengguna umum. Semua itu dilakukan full device only.</p>
+  </section>
+
+  <!-- Pengalaman & Pencapaian -->
+  <section id="pengalaman" class="dark">
+    <h2 class="section-title reveal">Pengalaman &amp; Pencapaian</h2>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="circle"></div>
+        <div class="content">
+          <h3>50+ Proyek Web</h3>
+          <p>Telah menyelesaikan lebih dari lima puluh proyek web, mulai dari website statis hingga web app interaktif.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="circle"></div>
+        <div class="content">
+          <h3>Web App Skala Besar</h3>
+          <p>Mengembangkan web app skala besar secara bertahap hingga ribuan baris kode dengan perencanaan yang matang.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="circle"></div>
+        <div class="content">
+          <h3>Pembuatan &amp; Pengelolaan PWA</h3>
+          <p>Berpengalaman membuat dan mengelola Progressive Web App lengkap dengan manifest dan service worker.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="circle"></div>
+        <div class="content">
+          <h3>Debugging &amp; Refactoring</h3>
+          <p>Terampil dalam debugging, refactoring, optimisasi performa, dan penyesuaian UI/UX untuk perangkat mobile &amp; low‑end.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="circle"></div>
+        <div class="content">
+          <h3>Aktif di Komunitas</h3>
+          <p>Aktif berbagi dan berdiskusi di komunitas teknologi &amp; coding untuk terus belajar dan berkembang.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teknologi -->
+  <section id="teknologi">
+    <h2 class="section-title reveal">Teknologi &amp; Keahlian</h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML &amp; CSS</li>
+          <li>JavaScript / TypeScript</li>
+          <li>Vue &amp; React</li>
+          <li>Tailwind</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <h3>UI/UX &amp; Animasi</h3>
+        <ul>
+          <li>Desain mobile‑first &amp; responsive</li>
+          <li>Animasi ringan &amp; interaksi pengguna</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <h3>Backend &amp; Integrasi</h3>
+        <ul>
+          <li>FastAPI</li>
+          <li>Uptash &amp; Redis</li>
+          <li>REST API</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <h3>Web &amp; Deployment</h3>
+        <ul>
+          <li>GitHub</li>
+          <li>Vercel &amp; Netlify</li>
+          <li>PWA: manifest, service worker</li>
+          <li>Optimisasi performa web</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gaya Kerja -->
+  <section id="gaya" class="dark">
+    <h2 class="section-title reveal">Gaya Kerja</h2>
+    <ul class="work-style reveal">
+      <li>Fokus pada fungsi &amp; stabilitas</li>
+      <li>Mengutamakan kesederhanaan yang efektif</li>
+      <li>Iteratif: membangun, menguji, memperbaiki</li>
+      <li>Terbiasa bekerja dengan kode besar &amp; kompleks</li>
+      <li>Adaptif terhadap keterbatasan perangkat</li>
+    </ul>
+  </section>
+
+  <!-- Minat & Arah Pengembangan -->
+  <section id="minat">
+    <h2 class="section-title reveal">Minat &amp; Arah Pengembangan</h2>
+    <p class="reveal">Saya berfokus pada pembuatan <strong>Web App produktivitas</strong>, pengembangan <strong>AI tools</strong> yang benar‑benar berguna (bukan sekadar chatbot), sistem otomatis berbasis input pengguna, serta <strong>web ringan</strong> untuk semua kalangan.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 R_hmt ofc. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to our JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
